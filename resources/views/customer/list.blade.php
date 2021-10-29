@@ -10,6 +10,7 @@
         <div class="row" style="margin-bottom: 30px;">
             <div class="col-sm-10" style="margin-bottom: 10px;">
                 <form method="get" action="" class="form-inline">
+                    @csrf
                     <div class="form-group">
                         <input type="text" name="keyword" class="form-control" value="{{$keyword}}" placeholder="検索キーワード">
                     </div>
