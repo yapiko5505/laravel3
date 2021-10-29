@@ -11,6 +11,7 @@
 
 @section('content')
     <form action="" method="post" class="form-horizontal">
+        @csrf
         {{ csrf_field() }}
         <input type="hidden" name="name" value="{{$name}}">
         <input type="hidden" name="postal" value="{{$postal}}">

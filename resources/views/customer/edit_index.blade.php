@@ -9,6 +9,7 @@
 
 @section('content')
     <form action="" method="post" class="form-horizontal">
+        @csrf
         <table>
         {{ csrf_field() }}
         {{ method_field('patch') }}
