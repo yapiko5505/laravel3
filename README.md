@@ -2,6 +2,7 @@
 # laravel3
 
  laravel自主制作のサンプルです。
+ 住所録を制作しました。
  
  # デモ
  [webサイト]https://yasuko-laravel-plate.herokuapp.com/customer/list
